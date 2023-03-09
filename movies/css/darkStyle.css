@@ -1,0 +1,39 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+table.dark {
+	border: 1px solid #1a1a1a;
+	background-color: black;
+	border-collapse: collapse;
+}
+
+table.dark th {
+	border-bottom:1px solid #000000; /* color between top and first row */
+	background-color: rgba(0, 0, 0, 0.397);
+	text-align: left;
+	color: rgba(255, 255, 255, 0.788);
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: all-small-caps;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 5px 10px 7px 15px;
+}
+
+table.dark td {
+	border-right:1px solid #1a1a1a;/* left and right edge color of year column */
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-inline: 15px;
+	padding-bottom: 20px;
+}
+
+table.dark h4 {
+	font-weight:normal;
+	color: rgba(255, 255, 255, 0.89);;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 0;
+}
+
+tr {
+	background: url(../images/gradient.gif);
+}

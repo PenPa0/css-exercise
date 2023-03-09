@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(9, 58, 218, 0.671);
+}
+
+#wrap {
+    margin-left: 5%;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+}
